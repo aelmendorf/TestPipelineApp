@@ -27,6 +27,6 @@ jobs:
       
       - name: Setup .NET Core SDK
         uses: actions/setup-dotnet@v1.8.1
-      - run: dotnet build TestPipelingApp
+      - run: dotnet build TestPipelineApp
 
 
